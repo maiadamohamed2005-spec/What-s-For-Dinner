@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img1.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>what's your dinner</title>
+</head>
+<body>
+    <header>
+
+    <div class="container">
+
+        <div class="logo">
+            <div class="icon">
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+    <div class="text">
+        <h2>What's For Dinner</h2>
+        <p>Your daily meal inspiration</p>
+    </div>
+
+</div>
+    <div class="nav-icons">
+    <i class="fa-solid fa-bookmark"></i>
+    <i class="fa-solid fa-clock-rotate-left"></i>
+    <i class="fa-solid fa-gear"></i>
+    <img src="./avatar-3 (1).jpg">
+
+</div>
+ </div>
+</header>
+
+
+<section class="recipe">
+
+    <div class="container">
+<div class="left">
+    <div class="recipe-image">
+        <img id="recipeImage" src="./BBQ.png" alt="Recipe Image">
+
+        <div class="rate">
+            <i class="fa-solid fa-star"></i>
+            <span id="recipeRate">4.7</span>
+            <small>(412 Reviews)</small>
+        </div>
+    </div>
+    <div class="recipe-info">
+
+        <div class="box">
+            <i class="fa-solid fa-clock"></i>
+            <p>Prep Time</p>
+            <h4 id="prepTime">15 min</h4>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-fire"></i>
+            <p>Cook Time</p>
+            <h4 id="cookTime">240 min</h4>
+        </div>
+
+        <div class="box">
+            <i class="fa-solid fa-users"></i>
+            <p>Servings</p>
+            <h4 id="servings">4 People</h4>
+        </div>
+
+    </div>
+
+</div>
+<div class="right">
+    <div class="top">
+
+        <div class="title">
+    <h1 id="recipeTitle">BBQ Pulled Pork</h1>
+    <p id="recipeDesc">
+        Slow-cooked tender pork in smoky barbecue sauce.
+    </p>
+        </div>
+   <div class="icons">
+        <button>
+            <i class="fa-solid fa-bookmark"></i>
+        </button>
+
+        <button>
+            <i class="fa-solid fa-share-nodes"></i>
+        </button>
+    </div>
+
+            </div>
+
+<div class="alert">
+
+    <i class="fa-solid fa-circle-exclamation"></i>
+
+    <div>
+        <h3>Extended Preparation Time</h3>
+        <p id="alertText">
+            This recipe requires more than 45 minutes.
+        </p>
+
+    </div>
+
+</div>
+
+    <div class="tabs">
+
+        <button class="tab active" id="btnIngredients">
+            Ingredients
+        </button>
+        <button class="tab" id="btnInstructions">
+            Instructions
+        </button>
+        <button class="tab" id="btnNutrition">
+            Nutrition
+        </button>
+        <button class="tab" id="btnTips">
+            Chef Tips
+        </button>
+
+    </div>
+
+
+    <div class="content">
+        <div id="ingredients" class="tab-content active"></div>
+        <div id="instructions" class="tab-content"></div>
+        <div id="nutrition" class="tab-content"></div>
+        <div id="tips" class="tab-content"></div>
+
+    </div>
+
+        <button id="nextRecipe">
+            <i class="fa-solid fa-rotate-right"></i>
+            Try Another Recipe
+        </button>
+
+    </div>
+    </div>
+
+</section>
+
+    <script src="./main.js"></script>
+</body>
+</html>
